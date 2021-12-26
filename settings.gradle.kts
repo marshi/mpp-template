@@ -8,7 +8,7 @@ pluginManagement {
     }
     
 }
-rootProject.name = "mpp2"
+rootProject.name = "mpp-template"
 
 
 include(":android")
