@@ -1,4 +1,4 @@
-import dev.marshi.common.composeui.App
+import dev.marshi.mpptemplate.common.composeui.App
 import androidx.compose.material.MaterialTheme
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application

@@ -1,7 +1,9 @@
+package dev.marshi.mpptemplate.web
+
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
-import dev.marshi.common.getPlatformName
+import dev.marshi.mpptemplate.common.getPlatformName
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.renderComposable

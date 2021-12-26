@@ -1,6 +1,6 @@
-package dev.marshi.android
+package dev.marshi.mpptemplate.android
 
-import dev.marshi.common.composeui.App
+import dev.marshi.mpptemplate.common.composeui.App
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity

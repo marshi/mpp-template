@@ -1,4 +1,4 @@
-package dev.marshi.common.composeui
+package dev.marshi.mpptemplate.common.composeui
 
 import androidx.compose.material.Text
 import androidx.compose.material.Button
@@ -7,7 +7,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import dev.marshi.common.getPlatformName
+import dev.marshi.mpptemplate.common.getPlatformName
 
 @Composable
 fun App() {
