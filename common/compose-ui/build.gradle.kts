@@ -2,8 +2,8 @@ import org.jetbrains.compose.compose
 
 plugins {
   kotlin("multiplatform")
-  id("org.jetbrains.compose") version "1.0.0"
-  id("com.android.library")
+  id("org.jetbrains.compose")
+  id("android-setup")
 }
 
 kotlin {
@@ -43,18 +43,5 @@ kotlin {
         api(compose.preview)
       }
     }
-  }
-}
-
-android {
-  compileSdkVersion(31)
-  sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
-  defaultConfig {
-    minSdkVersion(24)
-    targetSdkVersion(31)
-  }
-  compileOptions {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
   }
 }
